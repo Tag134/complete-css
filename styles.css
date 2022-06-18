@@ -72,3 +72,23 @@
         grid-gap: 10px;
     }
 }
+
+.footer{
+    margin: 0 auto;
+    max-width: 85ch;
+    display: grid;  
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer__nav-list li:first-child{
+    font-weight: bolder;
+
+}
+
+
